@@ -4,40 +4,29 @@ import { LinkContainer } from 'react-router-bootstrap'
 
 function NavBar() {
 	return (
-		<Navbar collapseOnSelect expand="lg" sticky="top" bg="dark" variant="dark">
+		<Navbar collapseOnSelect expand="lg" sticky="top">
 			<Container>
-				<LinkContainer to="/">
-					<Navbar.Brand href="#home">
-						<img
-							// src={logo}
-							// width="150"
-							// height="30"
-							// className="d-inline-block align-top logo"
-							// alt="Solarbitrage logo"
-						/>
-					</Navbar.Brand>
-				</LinkContainer>
 				<Navbar.Toggle aria-controls="responsive-navbar-nav" />
 				<Navbar.Collapse id="responsive-navbar-nav">
 					<Nav className="me-auto">
 						<LinkContainer to="/">
 							<Nav.Link>
-								Home
+								<p>Home</p>
 							</Nav.Link>
 						</LinkContainer>
 						<LinkContainer to="/about">
 							<Nav.Link>
-								About
+								<p>About</p>
 							</Nav.Link>
 						</LinkContainer>
 						<LinkContainer to="/Contact">
 							<Nav.Link>
-								Contact
+								<p>Contact</p>
 							</Nav.Link>
 						</LinkContainer>
 						<LinkContainer to="/More">
 							<Nav.Link>
-								More
+								<p>More</p>
 							</Nav.Link>
 						</LinkContainer>
 					</Nav>

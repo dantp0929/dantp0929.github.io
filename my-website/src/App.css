@@ -1,0 +1,100 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css");
+
+.section {
+	height: 100vh;
+  display: flex;
+}
+
+.animated-gradient {
+  background: linear-gradient(-45deg, #a7ffa3, #b2aaff, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.center-centric {
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  flex-direction: row;
+}
+
+.introduction {
+  color: rgb(250, 250, 250);
+}
+
+.introduction button {
+  margin-right: 10px;
+}
+
+nav {
+  position: absolute;
+  height: 50px;
+  margin-top: -50px;
+  background: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.active p {
+  color: rgb(250, 250, 250) !important;
+}
+
+nav p {
+  color: rgb(201, 201, 201);
+  margin: 0px;
+}
+
+nav p:hover {
+  color: rgb(250, 250, 250);
+  transition: 0.4s;
+}
+
+footer {
+  background-color: rgb(43, 61, 42);
+  color:rgb(250, 250, 250);
+  min-height: 200px;
+  display: flex;
+  align-items: center;
+}
+
+footer .footer-columns {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+footer .about {
+  display: flex;
+  flex-direction: column;
+}
+
+footer .links {
+  display: flex;
+  flex-direction: column;
+}
+
+footer .contact {
+  display: flex;
+  flex-direction: column;
+}
+
+footer a {
+  color: rgb(201, 201, 201);
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: rgb(250, 250, 250);
+  transition: 0.4s;
+}
+
