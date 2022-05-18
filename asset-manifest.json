@@ -1,15 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.73826ee2.css",
-    "main.js": "/static/js/main.cc0e0e52.js",
+    "main.css": "/static/css/main.81af00af.css",
+    "main.js": "/static/js/main.ab4c9628.js",
     "static/js/787.bbe01249.chunk.js": "/static/js/787.bbe01249.chunk.js",
+    "static/media/Java logo.png": "/static/media/Java logo.86407ffa56ebe1f70b6a.png",
+    "static/media/C++ logo.png": "/static/media/C++ logo.0a81196c8995a6248ba3.png",
+    "static/media/Node logo.png": "/static/media/Node logo.abfaef34ea49d0c7cd3c.png",
+    "static/media/MySQL logo.png": "/static/media/MySQL logo.6e42b2a035b28f240021.png",
+    "static/media/Bootstrap logo.png": "/static/media/Bootstrap logo.c5dedb5348b058d36661.png",
+    "static/media/React logo.png": "/static/media/React logo.44319306359c7112276d.png",
+    "static/media/JavaScript logo.png": "/static/media/JavaScript logo.266bd9fb2663dcc057b4.png",
     "index.html": "/index.html",
-    "main.73826ee2.css.map": "/static/css/main.73826ee2.css.map",
-    "main.cc0e0e52.js.map": "/static/js/main.cc0e0e52.js.map",
+    "main.81af00af.css.map": "/static/css/main.81af00af.css.map",
+    "main.ab4c9628.js.map": "/static/js/main.ab4c9628.js.map",
     "787.bbe01249.chunk.js.map": "/static/js/787.bbe01249.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.73826ee2.css",
-    "static/js/main.cc0e0e52.js"
+    "static/css/main.81af00af.css",
+    "static/js/main.ab4c9628.js"
   ]
 }
