@@ -13,17 +13,20 @@ import Contact from './pages/contact';
 import Home from './pages/home';
 import More from './pages/more';
 
+import ScrollToTop from './assets/helper functions/ScrollToTop';
+
 function App() {
   return (
     <div className="App">
       <Router>
+        <ScrollToTop />
         <NavBar className="nav-bar"/>
         <Routes>
-            <Route element={ <App /> } />
-            <Route path="/" element={ <Home /> } />
-            <Route path="/about" element={ <About /> } />
-            <Route path="/contact" element={ <Contact /> } />
-            <Route path="/more" element= { <More /> } />
+          <Route element={ <App /> } />
+          <Route path="/" element={ <Home /> } />
+          <Route path="/about" element={ <About /> } />
+          <Route path="/contact" element={ <Contact /> } />
+          <Route path="/more" element= { <More /> } />
         </Routes>
         <Footer />
       </Router>

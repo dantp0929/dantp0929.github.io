@@ -6,7 +6,7 @@
 }
 
 .animated-gradient {
-  background: linear-gradient(-45deg, #a7ffa3, #b2aaff, #23a6d5, #23d5ab);
+  background: linear-gradient(-30deg, #a7ffa3, #b2aaff, #23a6d5, #23d5ab);
 	background-size: 400% 400%;
 	animation: gradient 10s ease infinite;
 }
@@ -27,7 +27,64 @@
   justify-content: flex-start;
   align-items: center;
   align-content: center;
+}
+
+.top-left-centric {
+  padding-top: 50px;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.evenly-sized {
+  align-items: stretch;
+}
+
+.vertical-groups {
+  display: flex;
+  flex-direction: column;
+}
+
+.horizontal-groups {
+  display: flex;
   flex-direction: row;
+}
+
+.maroon {
+  color:rgb(250, 250, 250);
+  background-color: #800000;
+}
+
+.green {
+  background-color: #d2ffd0;
+}
+
+.experience {
+  background-color: azure;
+}
+
+.experience h2, .experience h3 {
+  color: rgb(65, 65, 65);
+}
+
+.item {
+  padding: 20px;
+  margin: 20px;
+  width: 100%;
+}
+
+.boxed {
+  background-color: rgb(255, 255, 255);
+  filter: drop-shadow(20px 20px 4px #9fd6b8);
+  border-radius: 20px;
+}
+
+.stack {
+  flex-wrap: nowrap;
+}
+
+.images {
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .introduction {

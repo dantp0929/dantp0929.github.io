@@ -19,12 +19,12 @@ function NavBar() {
 								<p>About</p>
 							</Nav.Link>
 						</LinkContainer>
-						<LinkContainer to="/Contact">
+						<LinkContainer to="/contact">
 							<Nav.Link>
 								<p>Contact</p>
 							</Nav.Link>
 						</LinkContainer>
-						<LinkContainer to="/More">
+						<LinkContainer to="/more">
 							<Nav.Link>
 								<p>More</p>
 							</Nav.Link>
