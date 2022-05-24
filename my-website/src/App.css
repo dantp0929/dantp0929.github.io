@@ -59,7 +59,7 @@
 }
 
 .experience {
-  background-color: azure;
+  background-color: rgb(183, 226, 226);
 }
 
 .experience h2, .experience h3 {
@@ -80,6 +80,49 @@
 
 .stack {
   flex-wrap: nowrap;
+}
+
+.snippet {
+  border-radius: 20px;
+  background-color: white;
+  display: flex;
+  margin-bottom: 40px;
+  filter: drop-shadow(20px 20px 4px rgb(151, 187, 204));
+}
+
+.snippet .image img {
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.snippet .image {
+  width: 40%;
+}
+
+.snippet .detail {
+  width: 60%;
+  padding: 30px;
+}
+
+.detail-eye-candy {
+  display: flex;
+  justify-content: space-between;
+}
+
+.detail-eye-candy .logos {
+  place-self: flex-start;
+}
+
+.detail-eye-candy .logos img{
+  margin-right: 10px;
+}
+
+.detail-eye-candy .buttons {
+  place-self: flex-end;
 }
 
 .images {
