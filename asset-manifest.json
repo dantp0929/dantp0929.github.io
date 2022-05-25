@@ -1,25 +1,27 @@
 {
   "files": {
     "main.css": "/static/css/main.02f9f21a.css",
-    "main.js": "/static/js/main.50554c33.js",
+    "main.js": "/static/js/main.8b6784ab.js",
     "static/js/787.bbe01249.chunk.js": "/static/js/787.bbe01249.chunk.js",
     "static/media/HDL Research Lab Building.png": "/static/media/HDL Research Lab Building.f7a53dc5a7244f9a14d1.png",
+    "static/media/Crypto.jpg": "/static/media/Crypto.6bc56c6a7053de1c8df4.jpg",
     "static/media/Java logo.png": "/static/media/Java logo.86407ffa56ebe1f70b6a.png",
     "static/media/C++ logo.png": "/static/media/C++ logo.0a81196c8995a6248ba3.png",
     "static/media/Node logo.png": "/static/media/Node logo.abfaef34ea49d0c7cd3c.png",
     "static/media/MySQL logo.png": "/static/media/MySQL logo.6e42b2a035b28f240021.png",
     "static/media/Qt logo.png": "/static/media/Qt logo.02b9ce063fe9ca50049c.png",
+    "static/media/Firebase logo.png": "/static/media/Firebase logo.22ade27d533c69e7204a.png",
     "static/media/Bootstrap logo.png": "/static/media/Bootstrap logo.c5dedb5348b058d36661.png",
     "static/media/React logo.png": "/static/media/React logo.44319306359c7112276d.png",
     "static/media/JavaScript logo.png": "/static/media/JavaScript logo.266bd9fb2663dcc057b4.png",
     "static/media/Boost logo.png": "/static/media/Boost logo.ff038da92303c8e995ed.png",
     "index.html": "/index.html",
     "main.02f9f21a.css.map": "/static/css/main.02f9f21a.css.map",
-    "main.50554c33.js.map": "/static/js/main.50554c33.js.map",
+    "main.8b6784ab.js.map": "/static/js/main.8b6784ab.js.map",
     "787.bbe01249.chunk.js.map": "/static/js/787.bbe01249.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.02f9f21a.css",
-    "static/js/main.50554c33.js"
+    "static/js/main.8b6784ab.js"
   ]
 }
