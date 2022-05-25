@@ -59,7 +59,7 @@ function About() {
         </Container>
       </div>
 
-      <div className="section experience top-left-centric">
+      <div className="section-free-height experience top-left-centric">
         <Container>
           <h1>Experience</h1>
           <br></br>
@@ -92,8 +92,55 @@ function About() {
             ]}
           />
 
+          <hr></hr>
+
           <h1>Projects</h1>
           <br></br>
+          <h2>Solarbitrage</h2>
+          <Snippet
+            imageSource={require("../assets/images/Solarbitrage Graphs.png")}
+            imageAlt={"Crypto currencies"}
+            details={
+              <p>
+                Solarbitrage was my group's senior capstone project. It is an arbitrage bot that performed trades
+                on the Solana blockchain. The front-end was written with React, and the back-end was mainly TypeScript. 
+                Firebase's Real Time database and Firestore were used to store persistent data used for back-testing and 
+                displaying data on a web based dashboard.
+                <br></br><br></br> 
+                It traded between two Automated Market Makers, Orca and Raydium, both of which had TypeScript APIs we 
+                leveraged to create atomic swaps on the blockchain.
+              </p>
+            }
+            logos={[
+              {source: require("../assets/logos/JavaScript logo.png"), alt: "C++"},
+              {source: require("../assets/logos/React logo.png"), alt: "React"},
+              {source: require("../assets/logos/Firebase logo.png"), alt: "Firebase"}
+            ]}
+            buttons={[
+              {link: "https://github.com/solarbitrage/solarbitrage", text: (<p class="bi bi-github" style={{margin: '0px'}}> GitHub </p>), variant: "primary"}
+            ]}
+          />
+          <h2>Reddit Wallpaper Scraper</h2>
+          <Snippet
+            imageSource={require("../assets/images/wallpaper.jpg")}
+            imageAlt={"Reddit Wallpaper"}
+            details={
+              <p>
+                Personal project utilizing Reddit's API to find wallpapers and display them. 
+                It is deployed on Wallpaper Engine's Steam Workshop, where users can download the application
+                so it can be displayed on their desktops.
+              </p>
+            }
+            logos={[
+              {source: require("../assets/logos/Reddit logo.png"), alt: "Reddit"},
+              {source: require("../assets/logos/Wallpaper Engine logo.png"), alt: "Wallpaper Engine"},
+            ]}
+            buttons={[
+              {link: "https://github.com/dantp0929/reddit-wallpaper-finder", text: (<p class="bi bi-github" style={{margin: '0px'}}> GitHub </p>), variant: "primary"}
+            ]}
+          />
+
+
         </Container>
       </div>
     </div>

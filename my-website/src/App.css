@@ -5,6 +5,12 @@
   display: flex;
 }
 
+.section-free-height {
+	padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+}
+
 .animated-gradient {
   background: linear-gradient(-30deg, #a7ffa3, #b2aaff, #23a6d5, #23d5ab);
 	background-size: 400% 400%;
@@ -42,6 +48,8 @@
 .vertical-groups {
   display: flex;
   flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
 }
 
 .horizontal-groups {
