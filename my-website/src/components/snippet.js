@@ -1,7 +1,5 @@
-import React, {useEffect} from "react";
+import React from "react";
 import { Button } from "react-bootstrap";
-
-let instances = 0
 
 /**
  * Props used:

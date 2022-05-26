@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Nav, Navbar, Button, Image} from "react-bootstrap"
+import { Container, Nav, Navbar } from "react-bootstrap"
 import { LinkContainer } from 'react-router-bootstrap'
 
 function NavBar() {
