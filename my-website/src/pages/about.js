@@ -88,13 +88,13 @@ function About() {
               {source: require("../assets/logos/Boost logo.png"), alt: "Boost"}
             ]}
             buttons={[
-              {link: "https://hdlresearchlab.com/", text: "HDL's website", variant: "primary"}
+              {link: "https://hdlresearchlab.com/", text: (<p className="bi bi-globe2" style={{margin: '0px'}}> HDL's Website </p>), variant: "primary"}
             ]}
           />
 
           <hr></hr>
 
-          <h1>Projects</h1>
+          <h1>Notable Projects</h1>
           <br></br>
           <h2>Solarbitrage</h2>
           <Snippet
@@ -117,7 +117,8 @@ function About() {
               {source: require("../assets/logos/Firebase logo.png"), alt: "Firebase"}
             ]}
             buttons={[
-              {link: "https://github.com/solarbitrage/solarbitrage", text: (<p class="bi bi-github" style={{margin: '0px'}}> GitHub </p>), variant: "primary"}
+              {link: "https://github.com/solarbitrage/solarbitrage", text: (<p className="bi bi-github" style={{margin: '0px'}}> GitHub </p>), variant: "primary"},
+              {link: "https://www.youtube.com/watch?v=aCBcF_YtlRU", text: (<p className="bi bi-youtube" style={{margin: '0px'}}> Demo </p>), variant: "danger"}
             ]}
           />
           <h2>Reddit Wallpaper Scraper</h2>
@@ -136,11 +137,9 @@ function About() {
               {source: require("../assets/logos/Wallpaper Engine logo.png"), alt: "Wallpaper Engine"},
             ]}
             buttons={[
-              {link: "https://github.com/dantp0929/reddit-wallpaper-finder", text: (<p class="bi bi-github" style={{margin: '0px'}}> GitHub </p>), variant: "primary"}
+              {link: "https://github.com/dantp0929/reddit-wallpaper-finder", text: (<p className="bi bi-github" style={{margin: '0px'}}> GitHub </p>), variant: "primary"}
             ]}
           />
-
-
         </Container>
       </div>
     </div>

@@ -1,5 +1,7 @@
-import React from "react";
+import React, {useEffect} from "react";
 import { Button } from "react-bootstrap";
+
+let instances = 0
 
 /**
  * Props used:
@@ -29,8 +31,8 @@ class Snippet extends React.Component {
               <div className="logos">
                 {
                   this.props.logos ? 
-                    this.props.logos.map(function(logo) {
-                      return <img src={logo.source} alt={logo.alt} height={100}></img>
+                    this.props.logos.map(function(logo, index) {
+                      return <img key={`logo${index}`} src={logo.source} alt={logo.alt} height={100}></img>
                     })
                     : <></>
                 }
@@ -38,10 +40,16 @@ class Snippet extends React.Component {
               <div className="buttons">
                 {
                   this.props.buttons ?
-                    this.props.buttons.map(function(button) {
-                      return <a href={button.link} target="_blank" rel="noreferrer">
-                        <Button variant={button.variant}>{button.text}</Button>
-                      </a>
+                    this.props.buttons.map(function(button, index, buttons) {
+                      if (index + 1 === buttons.length) {
+                        return <a key={`button${index}`} href={button.link} target="_blank" rel="noreferrer">
+                          <Button variant={button.variant}>{button.text}</Button>
+                        </a>
+                      } else {
+                        return <a key={`button${index}`} href={button.link} target="_blank" rel="noreferrer" style={{marginRight: '5px'}}>
+                          <Button variant={button.variant}>{button.text}</Button>
+                        </a>
+                      }
                     })
                     : <></>
                 }
