@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c094f63e.css",
-    "main.js": "/static/js/main.e8fc7ffc.js",
+    "main.js": "/static/js/main.893c04b6.js",
     "static/js/787.bbe01249.chunk.js": "/static/js/787.bbe01249.chunk.js",
     "static/media/HDL Research Lab Building.png": "/static/media/HDL Research Lab Building.f7a53dc5a7244f9a14d1.png",
     "static/media/Java logo.png": "/static/media/Java logo.86407ffa56ebe1f70b6a.png",
@@ -19,11 +19,11 @@
     "static/media/Firebase logo.png": "/static/media/Firebase logo.a4156cb67d6d0676cffc.png",
     "index.html": "/index.html",
     "main.c094f63e.css.map": "/static/css/main.c094f63e.css.map",
-    "main.e8fc7ffc.js.map": "/static/js/main.e8fc7ffc.js.map",
+    "main.893c04b6.js.map": "/static/js/main.893c04b6.js.map",
     "787.bbe01249.chunk.js.map": "/static/js/787.bbe01249.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c094f63e.css",
-    "static/js/main.e8fc7ffc.js"
+    "static/js/main.893c04b6.js"
   ]
 }
