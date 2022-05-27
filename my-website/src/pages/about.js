@@ -137,7 +137,8 @@ function About() {
               {source: require("../assets/logos/Wallpaper Engine logo.png"), alt: "Wallpaper Engine"},
             ]}
             buttons={[
-              {link: "https://github.com/dantp0929/reddit-wallpaper-finder", text: (<p className="bi bi-github" style={{margin: '0px'}}> GitHub </p>), variant: "primary"}
+              {link: "https://github.com/dantp0929/subreddit-wallpapers", text: (<p className="bi bi-github" style={{margin: '0px'}}> GitHub </p>), variant: "primary"},
+              {link: "https://steamcommunity.com/sharedfiles/filedetails/?id=2813209535", text: (<p className="bi bi-steam" style={{margin: '0px'}}> Steam Workshop Page </p>), variant: "secondary"}
             ]}
           />
         </Container>
