@@ -1,9 +1,13 @@
-import React from "react";
+import React, {useEffect} from "react";
 import { Button, Container } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import resume from '../assets/resume/Daniel_Phan_Resume.pdf'
 
 function Home() {
+  useEffect(() => {
+    document.title = "Daniel | Home"
+  }, []);
+
   return (
     <div className="Home">
       <div className="section center-centric animated-gradient">

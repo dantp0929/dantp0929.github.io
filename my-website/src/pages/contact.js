@@ -1,9 +1,13 @@
-import React from "react";
+import React, {useEffect} from "react";
 import { Container } from "react-bootstrap";
 
 import resume from '../assets/resume/Daniel_Phan_Resume.pdf'
 
 function Contact() {
+  useEffect(() => {
+    document.title = "Daniel | Contact"
+  }, []);
+
   return (
     <div className="Contact">
       <div className="section-free-height contact center-centric">

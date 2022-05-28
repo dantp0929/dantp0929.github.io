@@ -1,7 +1,11 @@
-import React from "react";
+import React, {useEffect} from "react";
 import { Container } from "react-bootstrap";
 
 function More() {
+  useEffect(() => {
+    document.title = "Daniel | More"
+  }, []);
+
   return (
     <div className="More">
       <div className="section center-centric">

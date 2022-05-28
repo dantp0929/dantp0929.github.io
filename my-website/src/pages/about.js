@@ -1,9 +1,12 @@
-import React from "react";
+import React, {useEffect} from "react";
 import { Container } from "react-bootstrap";
 import Snippet from "../components/snippet";
 
 function About() {
-
+  useEffect(() => {
+    document.title = "Daniel | About"
+  }, []);
+  
   return (
     <div className="About">
       <div className="section green center-centric">
