@@ -19,9 +19,9 @@ function About() {
               <hr></hr>
               <div className="text">
                 <p>
-                  Skilled in conventional object oriented programing languages such as <b>C++</b>, <b>Java</b>, and <b>Python</b>. They are great for compiled programs and neat to know for 
-                  more complex ideas. In addition, popular game engines like Unity or Unreal Engine 
-                  use C/C++.
+                  Skilled in conventional object oriented programing languages such as <b>C++</b>, <b>Java</b>, and <b>Python</b>. They 
+                  are great for compiled programs and neat to know while learning other languages. In addition, 
+                  popular game engines like Unity or Unreal Engine use C#/C++.
                 </p>
               </div>
             </div>

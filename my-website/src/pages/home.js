@@ -1,6 +1,7 @@
 import React from "react";
 import { Button, Container } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import resume from '../assets/resume/Daniel_Phan_Resume.pdf'
 
 function Home() {
   return (
@@ -17,20 +18,13 @@ function Home() {
               <Link to="/about">
                 <Button variant="primary">More About Me</Button>
               </Link>
-              <Link to="/about#projects">
-                <Button variant="secondary">Projects</Button>
-              </Link>
+              <a href={resume} target="_blank" rel="noreferrer">
+                <Button variant="secondary">Resume</Button>
+              </a>
             </div>
           </div>
         </Container>
       </div>
-
-      <div className="section maroon">
-        <Container>
-          <h1>Texas A&M Graduate</h1>
-        </Container>
-      </div>
-
     </div>
   )
 }
