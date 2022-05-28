@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.c094f63e.css",
-    "main.js": "/static/js/main.893c04b6.js",
+    "main.css": "/static/css/main.58922526.css",
+    "main.js": "/static/js/main.2938e07b.js",
     "static/js/787.bbe01249.chunk.js": "/static/js/787.bbe01249.chunk.js",
     "static/media/HDL Research Lab Building.png": "/static/media/HDL Research Lab Building.f7a53dc5a7244f9a14d1.png",
     "static/media/Java logo.png": "/static/media/Java logo.86407ffa56ebe1f70b6a.png",
@@ -9,6 +9,7 @@
     "static/media/wallpaper.jpg": "/static/media/wallpaper.6f652af8dd1fb36f001f.jpg",
     "static/media/C++ logo.png": "/static/media/C++ logo.0a81196c8995a6248ba3.png",
     "static/media/Node logo.png": "/static/media/Node logo.abfaef34ea49d0c7cd3c.png",
+    "static/media/Daniel_Phan_Resume.pdf": "/static/media/Daniel_Phan_Resume.e9c00afc8f67611988ae.pdf",
     "static/media/MySQL logo.png": "/static/media/MySQL logo.6e42b2a035b28f240021.png",
     "static/media/Qt logo.png": "/static/media/Qt logo.02b9ce063fe9ca50049c.png",
     "static/media/Bootstrap logo.png": "/static/media/Bootstrap logo.c5dedb5348b058d36661.png",
@@ -18,12 +19,12 @@
     "static/media/Boost logo.png": "/static/media/Boost logo.ff038da92303c8e995ed.png",
     "static/media/Firebase logo.png": "/static/media/Firebase logo.a4156cb67d6d0676cffc.png",
     "index.html": "/index.html",
-    "main.c094f63e.css.map": "/static/css/main.c094f63e.css.map",
-    "main.893c04b6.js.map": "/static/js/main.893c04b6.js.map",
+    "main.58922526.css.map": "/static/css/main.58922526.css.map",
+    "main.2938e07b.js.map": "/static/js/main.2938e07b.js.map",
     "787.bbe01249.chunk.js.map": "/static/js/787.bbe01249.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c094f63e.css",
-    "static/js/main.893c04b6.js"
+    "static/css/main.58922526.css",
+    "static/js/main.2938e07b.js"
   ]
 }
