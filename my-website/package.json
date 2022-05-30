@@ -19,7 +19,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && echo \"danisme.com\" >> build/CNAME && git add build/CNAME && git commit -m \"added CNAME\" && git subtree push --prefix dist origin gh-pages",
+    "build": "react-scripts build && echo \"danisme.com\" >> build/CNAME",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
