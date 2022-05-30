@@ -1,2 +1,2 @@
-# dantp0929.github.io
-Personal Website
+# danisme.com
+Personal Website displaying my skills and notable past projects.
