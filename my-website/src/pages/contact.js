@@ -14,7 +14,7 @@ function Contact() {
         <Container>
           <div className="boxed item">
             <h1>Contact me:</h1>
-            <a href="mailto: phand972@gmail.com">
+            <a href="mailto:phand972@gmail.com">
               <h4 className="bi bi-envelope"> phand972@gmail.com (Preferred)</h4>
             </a>
             <h4 className="bi bi-telephone"> (713) 363 - 1944</h4>
