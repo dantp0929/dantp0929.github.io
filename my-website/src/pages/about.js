@@ -124,7 +124,7 @@ function About() {
               {link: "https://www.youtube.com/watch?v=aCBcF_YtlRU", text: (<p className="bi bi-youtube" style={{margin: '0px'}}> Demo </p>), variant: "danger"}
             ]}
           />
-          <h2>Reddit Wallpaper Scraper</h2>
+          <h2>Subreddit Wallpapers</h2>
           <Snippet
             imageSource={require("../assets/images/wallpaper.jpg")}
             imageAlt={"Reddit Wallpaper"}
@@ -132,7 +132,8 @@ function About() {
               <p>
                 Personal project utilizing Reddit's API to find wallpapers and display them. 
                 It is deployed on Wallpaper Engine's Steam Workshop, where users can download the application
-                so it can be displayed on their desktops.
+                so it can be displayed on their desktops. Very light weight program that purely uses JS, HTML, 
+                and CSS.
               </p>
             }
             logos={[
