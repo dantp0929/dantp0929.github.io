@@ -1,2 +1,2 @@
 # danisme.com
-Personal Website displaying my skills and notable past projects.
+Personal React website to show my past experience and what I've worked on.

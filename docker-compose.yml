@@ -1,0 +1,44 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgres:16-alpine # Use a specific version of the official image from Docker Hub
+    container_name: postgres_db
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: mydatabase
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./data/db:/var/lib/postgresql/danisme/data # Persist data to a local volume
+    networks:
+      - app-network
+
+  backend:
+    build:
+      context: ./src # Path to your backend's Dockerfile
+      dockerfile: Dockerfile
+    container_name: app_backend
+    ports:
+      - "8000:8000" # Or whatever port your backend uses
+    depends_on:
+      - db # Ensure the database starts first
+    networks:
+      - app-network
+
+  frontend:
+    build:
+      context: ./spa
+      dockerfile: Dockerfile
+    container_name: react_frontend
+    ports:
+      - "3000:3000" # Map host port 3000 to container port 3000
+    depends_on:
+      - backend # Depending on your setup, might depend on backend
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge
