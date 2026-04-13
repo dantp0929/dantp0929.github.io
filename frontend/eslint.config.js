@@ -4,6 +4,8 @@ import reactHooks from 'eslint-plugin-react-hooks'
 import reactRefresh from 'eslint-plugin-react-refresh'
 import tseslint from 'typescript-eslint'
 import { defineConfig, globalIgnores } from 'eslint/config'
+import eslintPluginPrettier from 'eslint-plugin-prettier'
+import eslintPluginSimpleImportSort from "eslint-plugin-simple-import-sort";
 
 export default defineConfig([
   globalIgnores(['dist']),
@@ -19,5 +21,13 @@ export default defineConfig([
       ecmaVersion: 2020,
       globals: globals.browser,
     },
+    plugins: {
+      "simple-import-sort": eslintPluginSimpleImportSort,
+    },
+    rules: {
+      "simple-import-sort/imports": "error",
+      "simple-import-sort/exports": "error",
+    },
   },
-])
+  eslintPluginPrettier,
+]);
