@@ -27,14 +27,13 @@ const navBarLinks: PageLink[] = [
 
 const NavBar = () => {
   return (
-    <AppBar position="absolute">
+    <AppBar position="absolute" sx={{ backgroundColor: "#00000072" }}>
       <Container>
         <Toolbar disableGutters>
           {navBarLinks.map((navBarLink) => (
             <NavLink
               to={navBarLink.link}
               style={{
-                color: "inherit",
                 textDecoration: "none",
                 marginRight: "32px",
               }}
@@ -44,8 +43,10 @@ const NavBar = () => {
                 noWrap
                 component="a"
                 sx={{
-                  color: "inherit",
-                  textDecoration: "none",
+                  color: "#d1d1d1",
+                  "&:hover": {
+                    color: "#ffffff",
+                  },
                 }}
               >
                 {navBarLink.displayText}
