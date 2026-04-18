@@ -7,7 +7,10 @@ const Footer = () => {
         height: "256px",
         backgroundColor: "#1e2f00",
       }}
-    ></Box>
+    >
+      
+
+    </Box>
   );
 };
 

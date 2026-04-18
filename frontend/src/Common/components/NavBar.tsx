@@ -27,7 +27,7 @@ const navBarLinks: PageLink[] = [
 
 const NavBar = () => {
   return (
-    <AppBar position="absolute" sx={{ backgroundColor: "#00000072" }}>
+    <AppBar position="absolute" sx={{ backgroundColor: "#00000072"}}>
       <Container>
         <Toolbar disableGutters>
           {navBarLinks.map((navBarLink) => (
