@@ -1,12 +1,24 @@
 import { Box, Button, Container, Stack, Typography } from "@mui/material";
+import { useEffect } from "react";
+import { useNavigate } from "react-router";
 
 const HomePage = () => {
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    document.title = "Daniel | Home"
+  });
+
+  const handleMoreAboutMeClicked = () => {
+    navigate("/about");
+  }
+
   return (
     <Box
-      className="animated-gradient"
+      className="home-background"
       sx={{
         display: "flex",
-        height: "100vh",
+        minHeight: "100vh",
         width: "100%",
         justifyContent: "center",
         flexDirection: "column",
@@ -26,7 +38,7 @@ const HomePage = () => {
             </Typography>
           </Box>
           <Stack direction="row" spacing={2}>
-            <Button variant="contained">More about me</Button>
+            <Button variant="contained" onClick={handleMoreAboutMeClicked}>More about me</Button>
             <Button variant="contained" color="secondary">
               Resume
             </Button>

@@ -3,7 +3,7 @@ body {
     padding: 0 0 0 0;
 }
 
-.animated-gradient {
+.home-background {
     background: linear-gradient(-30deg, #a7ffa3, #b2aaff, #23a6d5, #23d5ab);
     background-size: 400% 400%;
     animation: gradient 10s ease infinite;
@@ -21,4 +21,8 @@ body {
     100% {
         background-position: 0% 50%;
     }
+}
+
+.about-skills-background {
+    background-color: #c9f3c7;
 }

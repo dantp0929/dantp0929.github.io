@@ -1,5 +1,5 @@
-import { AppBar, Container, Toolbar, Typography } from "@mui/material";
-import { NavLink } from "react-router";
+import { AppBar, Container, Stack } from "@mui/material";
+import WhiteTypographyLink from "./WhiteTypographyLink";
 
 interface PageLink {
   displayText: string;
@@ -27,33 +27,20 @@ const navBarLinks: PageLink[] = [
 
 const NavBar = () => {
   return (
-    <AppBar position="absolute" sx={{ backgroundColor: "#00000072"}}>
+    <AppBar position="absolute" sx={{
+      backgroundColor: "#00000072",
+      height: "48px",
+      display: "flex",
+      alignItems: "center",
+      justifyContent: "center",
+      boxShadow: "none"
+    }}>
       <Container>
-        <Toolbar disableGutters>
+        <Stack direction='row' spacing={4}>
           {navBarLinks.map((navBarLink) => (
-            <NavLink
-              to={navBarLink.link}
-              style={{
-                textDecoration: "none",
-                marginRight: "32px",
-              }}
-            >
-              <Typography
-                variant="h6"
-                noWrap
-                component="a"
-                sx={{
-                  color: "#d1d1d1",
-                  "&:hover": {
-                    color: "#ffffff",
-                  },
-                }}
-              >
-                {navBarLink.displayText}
-              </Typography>
-            </NavLink>
+            <WhiteTypographyLink link={navBarLink.link} display={navBarLink.displayText} />
           ))}
-        </Toolbar>
+        </Stack>
       </Container>
     </AppBar>
   );
